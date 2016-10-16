@@ -1,0 +1,18 @@
+{
+    "conf_file": "esyslog.json", 
+    "server": {
+        "tcp_port": 8514, 
+        "udp_port": 8514, 
+        "host": "0.0.0.0"
+    }, 
+    "elasticsearch":{
+        "apiurl":"http://127.0.0.1:9200",
+        "index":"esyslog",
+        "apiuser":"xxx",
+        "apipwd":"xxx"
+    },    
+    "system": {
+        "debug": 1, 
+        "tz": "CST-8"
+    }
+}
